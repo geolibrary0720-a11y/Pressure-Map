@@ -1,0 +1,21 @@
+{
+  "name": "pressure-map",
+  "version": "1.0.0",
+  "description": "Privacy-first health reporting checker: Find Unfair Targets, Not Faulty Workers",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "health",
+    "privacy",
+    "reporting",
+    "pressure-map"
+  ],
+  "author": "Hackathon Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
